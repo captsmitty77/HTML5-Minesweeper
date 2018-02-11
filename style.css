@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    user-select: none;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: block;
+}
+
+.tile {
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 12pt;
+}
+
+.hidden-tile {
+    background-color: #ccc;
+    border-radius: 2px;
+    color: transparent;
+}
+
+.hidden-tile:hover {
+    background-color: #bbb;
+}
+
+.exposed-tile {
+    background: transparent;
+}
